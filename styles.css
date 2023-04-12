@@ -1,0 +1,39 @@
+button:hover,
+button:focus {
+  color: #ff0000; /* zmiana koloru tła */
+
+  color: #fff; /* zmiana koloru tekstu */
+
+  outline: none; /* usuwanie konturu/focusu po kliknięciu */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+}
+
+/* styl dla linków */
+a:hover,
+a:focus {
+  color: #ff0000; /* zmiana koloru tekstu */
+
+  outline: none; /* usuwanie konturu/focusu po kliknięciu */
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.h3 {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  color: #212121;
+}
+.p {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
+}
